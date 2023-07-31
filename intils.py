@@ -32,7 +32,7 @@ def get_last_operation(filrered_operations):
     sort_operation = filrered_operations[:5]
     return sort_operation
 
-
+print(get_last_operation(get_filtered_operation(load_operation())))
 def get_formatted_date(get_last_operation):
     """Изменяет дату"""
     format_date = []
